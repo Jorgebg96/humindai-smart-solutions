@@ -1,16 +1,18 @@
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Differentiators from "@/components/Differentiators";
-import TargetAudience from "@/components/TargetAudience";
+import ProblemSolution from "@/components/ProblemSolution";
+import WhatWeDo from "@/components/WhatWeDo";
+import HowItWorks from "@/components/HowItWorks";
+import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-      <Services />
-      <Differentiators />
-      <TargetAudience />
+      <ProblemSolution />
+      <WhatWeDo />
+      <HowItWorks />
+      <Testimonials />
       <Contact />
     </div>
   );
